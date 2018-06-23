@@ -6,7 +6,7 @@ public class Calculator{
 
     public Calculator(){
         window = new JFrame("Калькулятор");
-        window.setSize(250, 335);
+        window.setSize(260, 335);
         window.add(new Panell());
         window.setLocationRelativeTo(null);
         window.setResizable(false);
